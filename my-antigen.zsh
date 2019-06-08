@@ -4,14 +4,26 @@ source $(cd `dirname $0`; pwd)/antigen.zsh
 antigen use oh-my-zsh
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
-antigen bundle git
-antigen bundle z
+antigen bundle adb
+antigen bundle cp
 antigen bundle docker
 antigen bundle docker-compose
+antigen bundle dotenv
+antigen bundle git
+antigen bundle go
+antigen bundle helm
+antigen bundle mvn
+antigen bundle npm
+antigen bundle nvm
+antigen bundle pod
+antigen bundle pip
+antigen bundle z
+antigen bundle command-not-found
 
 # Bundles from zsh-users.
-antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
 antigen theme ys
