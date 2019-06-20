@@ -1,4 +1,4 @@
-source $(cd `dirname $0`; pwd)/antigen.zsh
+source $(cd `dirname $0`; pwd)/vendor/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
