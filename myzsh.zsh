@@ -10,7 +10,7 @@ antigen bundle docker
 antigen bundle docker-compose
 antigen bundle dotenv
 antigen bundle git
-antigen bundle go
+antigen bundle golang
 antigen bundle helm
 antigen bundle mvn
 antigen bundle npm
