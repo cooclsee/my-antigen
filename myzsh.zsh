@@ -10,8 +10,11 @@ antigen bundle docker
 antigen bundle docker-compose
 antigen bundle dotenv
 antigen bundle git
+antigen bundle github
 antigen bundle golang
 antigen bundle helm
+antigen bundle kubectl
+antigen bundle unixorn/kubectx-zshplugin
 antigen bundle mvn
 antigen bundle npm
 antigen bundle nvm
