@@ -14,7 +14,7 @@ antigen bundle github
 antigen bundle golang
 antigen bundle helm
 antigen bundle kubectl
-antigen bundle unixorn/kubectx-zshplugin
+#antigen bundle unixorn/kubectx-zshplugin
 antigen bundle mvn
 antigen bundle npm
 antigen bundle nvm
